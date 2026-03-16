@@ -1,0 +1,46 @@
+body{
+background:#050505;
+color:#00ff9c;
+font-family:monospace;
+text-align:center;
+}
+
+h1{
+font-size:45px;
+letter-spacing:6px;
+margin-top:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+padding:40px;
+}
+
+a{
+background:#111;
+border:2px solid #00ff9c;
+padding:20px;
+text-decoration:none;
+color:#00ff9c;
+}
+
+a:hover{
+background:#00ff9c;
+color:black;
+}
+
+input{
+padding:10px;
+background:#111;
+border:2px solid #00ff9c;
+color:#00ff9c;
+}
+
+button{
+padding:10px 20px;
+background:#00ff9c;
+border:none;
+cursor:pointer;
+}
